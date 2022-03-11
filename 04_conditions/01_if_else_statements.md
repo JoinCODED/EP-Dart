@@ -3,8 +3,10 @@ In this and upcoming lessons, we will learn about conditionals in dart, which al
 Suppose you have an airplane tickets program, and you want to sell the ticket based on those conditions:
 
 If the age is less than 18 you will charge 10KWD for the ticket
+
 otherwise, if the age is more or equal to 60 you will charge 12KWD for the ticket
-otherwise the ticket is worth 14 KWD.
+
+otherwise the ticket is worth 14KWD.
 
 Let's see how to code that in dart:
 
@@ -17,7 +19,7 @@ void main() {
 }
 ```
 
-To digest what we wrote above, we start an `if` condition, with the `if` keyword, and within parenthesis we right our condition that once it's evaluated and results with a `true` value, the code will execute what's in the curly braces and it will print:
+To digest what we wrote above, we start an `if` condition, with the `if` keyword, and within parenthesis we write our condition that once it's evaluated and results with a `true` value, the code will execute what's in the curly braces and it will print:
 
 Output:
 
@@ -59,7 +61,7 @@ In the code above, we wrote `else if` followed by another condition in a set of 
 
 So our program flow will be like this:
 
-dart: I have an integer called `age` with the value of `65`, if `65` is less than `18` I should print `Price is 10KWD` so i'm gonna ignore this block of code and I'll check the other condition, if `65` is bigger than `60` i should print `Price is 12KWD`. and it's true, `65` is more than `60`, so i will output:
+Dart: I have an integer called `age` with the value of `65`, if `65` is less than `18` I should print `Price is 10KWD` so i will ignore this block of code and I'll check the other condition, if `65` is bigger than `60` i should print `Price is 12KWD`. and it's true, `65` is more than `60`, so i will output:
 
 ```
 Price is 12KWD
