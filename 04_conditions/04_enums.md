@@ -1,6 +1,6 @@
 Enums stands for `enumeration`, so let's see how this works:
 
-In our previous code, we had some integers from 1,7 that represents the days of the week, but we can make our code more readable, carry more meaning and explicitly define allowed values, we don't want a user to try to enter that 8th day of the week!
+In our previous code, we had some integers from 1 to 7 that represents the days of the week, but we can make our code more readable, carry more meaning and explicitly define allowed values, we don't want a user to try to enter that 8th day of the week!
 
 ```dart
 void main() {
