@@ -4,7 +4,7 @@ In the previous lesson we declared a lot of variables, let's print them out:
 void main() {
     String name = 'Salem';
     int age = 24;
-    double height = 178.2;
+    double height = 1.78;
     bool lovesCoding = true;
     print(name);
     print(age);
@@ -18,7 +18,7 @@ Wouldn't it be nice if we can join those variables into a single `string` and `p
 We want to achieve this output:
 
 ```
-My name is Salem, I'm 24 years old, I'm 178.2 meters tall, and do I love coding? thats true!
+My name is Salem, I'm 24 years old, I'm 1.78 meters tall, and do I love coding? thats true!
 ```
 
 Lets remove all our print statements and replace them with only one:
@@ -33,23 +33,23 @@ void main() {
 }
 ```
 
-Now we need to inject our variable in here, lets try this:
+Now we need to inject 💉 our variable in here, lets try this:
 
 ```dart
 void main() {
     String name = 'Salem';
     int age = 24;
-    double height = 178.2;
+    double height = 1.78;
     bool lovesCoding = true;
     print("My name is name");
 }
 ```
 
-So.. did it work? nope, dart thinks `name` is a string, how can we tell it that's a variable?
+So.. did it work 😶‍🌫️? nope, dart thinks `name` is a string, how can we tell it that's a variable?
 
 There are two ways:
 
-String concatenation:
+### String concatenation:
 
 To concatenate two strings you can use the `+` sign like this:
 
@@ -63,7 +63,7 @@ void main() {
 }
 ```
 
-String interpolation:
+### String interpolation:
 
 This one is much nicer, let's see how this works:
 
