@@ -25,6 +25,9 @@ var laila = name; // this is a constant
 To summarize what we learned so far:
 
 `var`: can be reassigned multiple times.
+
 `final`: can be set only once.
+
 `const`: for compile time constants.
+
 You should prefer `const`>`final`>`var`.
