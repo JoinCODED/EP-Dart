@@ -1,4 +1,4 @@
-We are going to write our first `dart` program!
+We are going to write our first `dart` program! 🤩
 
 Let's type this in our main `method`:
 
@@ -10,7 +10,7 @@ void main() {
 
 Run your code, we can see `Hello World` printed in the console!
 
-This is whats so called a `print` statement.
+This is whats so called a `print` 🖨️ statement.
 
 Let's add another `print` statement:
 
