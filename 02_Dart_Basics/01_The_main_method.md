@@ -1,6 +1,6 @@
 Try to run an empty dart file, what did you get?
 
-an error that says
+An error that says:
 
 ```
 No `main` method found.
@@ -16,7 +16,7 @@ void main() {
 }
 ```
 
-But what does mean? don't worry right now, we just have to know that:
+But what does mean? 🤔 don't worry right now, we just have to know that:
 
 1. Every `dart` program has a `main` method.
 2. The `main` method is the entry point of our program.
