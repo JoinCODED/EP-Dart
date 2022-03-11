@@ -23,4 +23,4 @@ for (initialization; condition; increament) {
 }
 ```
 
-We write the initialization,condition and increament code all in one line, so when to use a `while` loop and when to use a `for` loop? it's up to you, pick whatever you like.
+We write the initialization, condition and increament code all in one line, so when to use a `while` loop and when to use a `for` loop? it's up to you, pick whatever you like.
