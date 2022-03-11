@@ -1,6 +1,6 @@
 In the previous lesson we declared a variable with the `String` type, I bet you are wondering what other types we have in Dart.
 
-The main basic types that you need to know is:
+The main basic types that you need to know are:
 
 1. int
 2. double
