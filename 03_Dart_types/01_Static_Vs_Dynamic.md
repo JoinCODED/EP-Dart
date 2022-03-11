@@ -3,6 +3,7 @@ One big distinction between programming languages, is if they are statically typ
 Some examples for statically typed languages are Java, Swift, and our beloved dart, while for example JavaScript and python are dynamically typed languages, but what does all that means?
 
 Static: types are checked at compile time
+
 Dynamic: types are checked during execution
 
 And that means that any type error can be caught before execution in dart, not while our program is running, let's take and example:
