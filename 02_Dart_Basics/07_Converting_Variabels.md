@@ -17,7 +17,7 @@ print(attendance.replaceAll('0','1'));
 }
 ```
 
-oops, dart is complaining, we can't apply a string method to an integer, don't let a computer tells you what you can and what you can't, let's convert this variable to a string:
+Oops, dart is complaining, we can't apply a string method to an integer 😥, let's convert this variable to a string:
 
 ```dart
 void main() {
@@ -27,7 +27,7 @@ print(attendance.replaceAll('0','1'));
 }
 ```
 
-The `.toString()` method turns an integer to a string, but we can't assign the result to the variable `attendance`, but why?
+The `.toString()` method turns an integer to a string, but we can't assign the result to the variable `attendance`, why 🤔?
 
 Because we converted `200` to a `string` we can't assign it to a variable with the type `int`, so we have to create a new variable of type `string` and assign it to it:
 
@@ -55,7 +55,7 @@ Output:
 211
 ```
 
-We can do this in a shorter way, which is called chaining methods, calling a method after a method after a method etc:
+We can do this in a shorter way, which is called chaining 🔗 methods, calling a method after a method after a method etc:
 
 ```dart
 void main() {
@@ -91,7 +91,7 @@ For dart to be able to check a string if it can be converted or not, we use `par
 double.parse("hello");
 ```
 
-If it can be converted to a double dart will do that for us, and if it's not like the case above the output will be nothing.
+If it can be converted to a double dart will do that for us, and if it's not, like the case above the output will be nothing.
 
 ```dart
 double.parse("hello"); // outputs nothing
