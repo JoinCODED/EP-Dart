@@ -21,7 +21,9 @@ void main() {
 }
 ```
 
-As you see, to write this logic, we need a lot of `if else` statements, instead we can rewrite this logic using a `switch` statement:
+As you see, to write this logic, we need a lot of `if else` statements. 
+
+Instead, we can rewrite this logic using a `switch` statement:
 
 ```dart
 void main() {
@@ -32,9 +34,9 @@ void main() {
 }
 ```
 
-So we start by adding the `switch` keyword, and between parenthesis we write the variable that we want to check, in out case, we need to check the value of `day`.
+So we start by adding the `switch` keyword, and between parenthesis we write the variable that we want to check, in our case, we need to check the value of `day`.
 
-The we open a set of curly braces and we start listing our cases:
+Then we open a set of curly braces and we start listing our cases:
 
 ```dart
 void main() {
@@ -48,6 +50,7 @@ void main() {
 ```
 
 We added our first `case`, by writing the `case` keyword followed by the value that `if` matched, it will execute the code bellow it.
+
 Then we write the `break` keyword that ensures that we exist the `switch` statement.
 
 Let's add the rest of our cases:
