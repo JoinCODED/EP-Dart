@@ -39,11 +39,17 @@ So here we told dart to increament the value of `i` by one with each iteration, 
 
 let's get again into the brain of dart and see how it thinks and evaluates our code:
 
-Dart: I have an integer called `i` with the value of `1`, `while` 1 is less than `5`, and that's `true`, I should print the value of `i` and then increament it by `1`, so `i` is now equal to `2`, and i finished an `iteration` so i'll check the condition again to see if I should keep going or I should stop and exit the loop, is `2` less than `5`? that's `true` i'll `print` `i` and go for another iteration...
+We have an integer called `i` with the value of `1`, `while` 1 is less than `5`, and that's `true`, excute a print statement for the value of `i` and then increament it by `1`.
+
+So `i` is now equal to `2`, and we finished an `iteration`.
+
+The condition will be checked again to see if It should keep going or It should stop and exit the loop.
+
+The second iteration starts: Is `2` less than `5`? that's `true` so `print` `i` and go for another iteration...
 
 [later]
 
-Dart: `i` is now equal to `5` is `5` less than `5`? `false`, so i'll stop and exit the loop.
+Last iteration: `i` is now equal to `5`, is `5` less than `5`? `false`, so dart will stop and exit the loop.
 
 Output:
 
