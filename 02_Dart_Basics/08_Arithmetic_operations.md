@@ -64,7 +64,7 @@ Output:
 6
 ```
 
-# Logical operators:
+### Logical operators:
 
 We can also do all logical operators such as:
 
@@ -127,7 +127,7 @@ Will be evaluated to:
 print(true && false ); // false
 ```
 
-For the `||` aka 'OR` operator only one of the conditions should evaluate to true to be considered as true by dart:
+For the `||` aka `OR` operator only one of the conditions should evaluate to true to be considered as true by dart:
 
 ```dart
 print(x > y || x < 4 ); // true
